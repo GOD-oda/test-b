@@ -1,0 +1,9 @@
+name: run
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  Run:
+#    if: github.event.issue.pull_request != null && github.event.comment.body == '/run-tests'
+    uses: GOD-oda/test-a/blob/main/.github/workflows/run.yaml@main
