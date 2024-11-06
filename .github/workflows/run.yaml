@@ -6,4 +6,4 @@ on:
 jobs:
   Run:
 #    if: github.event.issue.pull_request != null && github.event.comment.body == '/run-tests'
-    uses: GOD-oda/test-a/blob/main/.github/workflows/run.yaml@main
+    uses: GOD-oda/test-a/.github/workflows/run.yaml@main
